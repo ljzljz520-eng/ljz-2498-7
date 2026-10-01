@@ -1,0 +1,19 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/src/server.js",
+    "simulator": "node server/src/smtp-simulator.js",
+    "dev": "node server/src/dev.js",
+    "test": "node --test server/test/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "sql.js": "^1.14.2"
+  }
+}

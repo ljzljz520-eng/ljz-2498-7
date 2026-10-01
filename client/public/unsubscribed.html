@@ -1,0 +1,7 @@
+<!doctype html><html lang="zh"><head><meta charset="utf-8"><title>已退订</title>
+<style>body{font-family:sans-serif;max-width:520px;margin:60px auto;padding:0 16px}</style></head>
+<body><h1>你已成功退订</h1><p id="n"></p>
+<script>
+const e=new URLSearchParams(location.search).get('email');
+document.getElementById('n').textContent = e ? (e + ' 将不再收到此类邮件。') : '你的邮箱将不再收到此类邮件。';
+</script></body></html>
